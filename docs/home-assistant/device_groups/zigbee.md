@@ -1,6 +1,6 @@
 # Zigbee
 
-![Zigbee Logo](./assets/images/zigbee.jpg)
+![Zigbee Logo](/assets/images/zigbee.jpg)
 
 !!! info "A Note"
     A note about Zigbee: I am using the direct ZHA (Zigbee Home Automation) integration alongside a Sonoff Zigbee Hub flashed with Tasmota. It looked like the best way of getting myself setup at the time (and the cheapest!) but there are many other options out there. Including using Zigbee2MQTT. Take a look and find which you prefer!
