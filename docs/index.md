@@ -1,6 +1,6 @@
-# Home Assitant + Geek = Smart Home Automations!
+# Welcome to my Smart Home!
 
-![Placeholder](./assets/images/main-dash.png){: align=center}
+![Placeholder](./assets/images/me.png){: align=center}
 
 Welcome to my Smart Home! It's not as full featured as some of the amazing Development going on within the HomeAssistant community, but it's starting to become pretty cluttered. 
 
