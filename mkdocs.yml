@@ -25,6 +25,8 @@ nav:
     - Introduction: home-assistant/intro.md
     - Device Groups: 
       - Zigbee: home-assistant/device_groups/zigbee.md
+    - Configuration:
+      - The Config File: home-assistant/configuration/configuration_yaml.md
   - Self-Development: 
     - Introduction: development/development.md
     - Development Methodology: development/development_method.md
