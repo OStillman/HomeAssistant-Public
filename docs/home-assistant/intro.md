@@ -1,7 +1,7 @@
 # My Home Assistant
 The most Interesting Part, and main reason for the existance of this documentation, is my Home Assistant Server
 
-![HS Logo](/assets/images/hs.png)
+![HS Logo](/assets/images/hs.png){: style="height: 100px; width: 100px;"}
 
 ## What is Home Assistant?
 For those that don't know, I'd recommend taking a look around their [website](https://www.home-assistant.io/). 
