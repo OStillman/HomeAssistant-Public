@@ -8,7 +8,7 @@ repo_name: OStillman/HomeAssistant-Public
 theme:
   name: material
   custom_dir: docs/overrides
-  pallete:
+  palette:
     scheme: preference
     primary: amber
     accent: orange
@@ -24,6 +24,7 @@ nav:
   - Home Assistant: home_assistant.md
   - Self-Development: 
     - Introduction: development/development.md
+    - Development Methodology: development/development_method.md
     - ODACShows: development/odacshows.md
 
 
