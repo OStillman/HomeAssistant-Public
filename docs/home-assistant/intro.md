@@ -1,6 +1,9 @@
 # My Home Assistant
 The most Interesting Part, and main reason for the existance of this documentation, is my Home Assistant Server
 
+!!! quote "My Mission Statement"
+    To Create an Accessible, User Centric, Automation Led Home to Provide an Experience that Benefits all Household Members and Visitors
+
 ![HS Logo](/assets/images/hs.png){: style="height: 100px; width: 100px;"}
 
 ## What is Home Assistant?

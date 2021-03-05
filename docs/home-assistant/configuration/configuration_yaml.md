@@ -17,3 +17,6 @@ Generally there are a few small rules:
 
 !!! tip "My Configuration"
     In the Nav structure you'll see how I've configured my yaml files. My main file is described below, and I've mirrored the directory structure in here to make it easy for me to revert to if I need to check anything. You can however sort yours in anyway you deem best!
+
+
+## My Current Configuration.yaml file
