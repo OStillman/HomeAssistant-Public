@@ -27,6 +27,8 @@ nav:
       - Zigbee: home-assistant/device_groups/zigbee.md
     - Configuration:
       - The Config File: home-assistant/configuration/configuration_yaml.md
+    - Automations:
+      - Automation Intro: home-assistant/automations/automations.md
   - Self-Development: 
     - Introduction: development/development.md
     - Development Methodology: development/development_method.md
