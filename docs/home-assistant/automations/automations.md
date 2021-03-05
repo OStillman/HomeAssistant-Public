@@ -1,7 +1,8 @@
 # Automations & Home Assistant
 This is the juicy stuff, as Home Assistant themselves say:
 
-> Make use of Home Automations to bring your home alive
+!!! quote "Home Assistant:"
+    Make use of Home Automations to bring your home alive
 
 And I couldn't agree more!
 
