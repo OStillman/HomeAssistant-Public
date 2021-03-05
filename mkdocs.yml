@@ -14,7 +14,6 @@ theme:
     accent: orange
   features:
     - navgiation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
 
 
