@@ -9,7 +9,7 @@ Hello! My Personal Site is now dedicated to my Smart Home Development, but you c
 
 ## Smart Home?
 
-![My Main Dash](./assets/images/main_dash.png)
+![My Main Dash](./assets/images/main-dash.png)
 
 I run Home Assistant as my main Smart-stuff driver. It's nowhere near full-featured but it's becoming ever more useful as time goes on, so what better time to start documenting my actions?!
 
