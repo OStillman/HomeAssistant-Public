@@ -30,5 +30,5 @@ My Home Assistant Setup is as simple as it comes:
 - Raspberry Pi OS
 - Home Assistant installed Via Docker (Honestly, go the docker route if not using the Home Assistant OS, it's so much easier!)
 
-!!! note "The Rest of this Section"
+!!! tip "The Rest of this Section"
     The Rest of this Section will explain each of the different devices, automations, dashboards, configurations, anything that I've got running through Home Assistant that I've added/had added. Explore as Required!

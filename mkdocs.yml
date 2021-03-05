@@ -23,6 +23,8 @@ nav:
   - Hardware: hardware.md
   - Home Assistant:
     - Introduction: home-assistant/intro.md
+    - Device Groups: 
+      - Zigbee: home-assistant/device_groups/zigbee.md
   - Self-Development: 
     - Introduction: development/development.md
     - Development Methodology: development/development_method.md
