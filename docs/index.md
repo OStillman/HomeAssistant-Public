@@ -1,8 +1,12 @@
 # Welcome to my Smart Home!
 
-![Placeholder](./assets/images/me.png){: align=center}
+**Note: This is currently under construction**
 
-Welcome to my Smart Home! It's not as full featured as some of the amazing Development going on within the HomeAssistant community, but it's starting to become pretty cluttered. 
+![Placeholder](./assets/images/me.png){: align=middle}
+
+First of Hello! I've gone through many iterations of my Personal Site, and have settled on basing it on my Smart Home Development Progress and Roadmap. Feel free to take a look around! You can find out more information about me here
+
+My Smart Home is not as full featured as some of the amazing development going on within the HomeAssistant community, but it's starting to become pretty cluttered. 
 
 With this, I thought I'd make some formal documentation. Mainly to help me with my understanding and quick reference, but also, hopefully, to inspire others!
 
