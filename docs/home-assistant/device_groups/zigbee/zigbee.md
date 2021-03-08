@@ -3,7 +3,7 @@
 ![Zigbee Logo](/assets/images/zigbee.jpg)
 
 !!! info "A Note"
-    A note about Zigbee: I am using the direct ZHA (Zigbee Home Automation) integration alongside a Sonoff Zigbee Hub flashed with Tasmota. It looked like the best way of getting myself setup at the time (and the cheapest!) but there are many other options out there. Including using Zigbee2MQTT. Take a look and find which you prefer!
+    A note about Zigbee: I am using the direct ZHA (Zigbee Home Automation) integration alongside a Sonoff Zigbee Hub flashed with Tasmota. It looked like the best way of getting myself setup at the time (and the cheapest!) but there are many other options out there. Including using Zigbee2MQTT or even going for a Z-Wave integration. Take a look and find which you prefer!
 
 ## What is Zigbee?
 Zigbee is a communication protocal. Think of it like Wifi but less power hungry, and more direct in it's use. Whereas Wifi is used by most devices we own today, Zigbee is saved for IoT devices which may be running via battery power and simply need to report on an event happening, such as a door opening or closing. Directly Powered Zigbee devices also exist (think lightbulbs) which are still low powered but need to be always on and "listening" for commands to turn on
@@ -28,5 +28,24 @@ You just need to work out what's best for you!
 ## My Setup
 Enough about what Zigbee is, how it works, why it's benefical etc. let's talk about my setup
 
-### TBC
-This is currently being built. So I'll leave it there for now
+![Sonoff Zigbee Controller](/assets/images/sonoff_zigbee.jpg)
+
+### The Sonoff Zigbee Controller
+Small but mighty! I chose this controller as:
+
+- It was easy to get my hands on - It's on Amazon for £20!
+- It's simple to Flash
+- It's Wireless (Commnications back to the Pi are done via Wifi) so it can be placed ANYWHERE in the house
+
+#### Configuration
+This hub needs to be flashed. I used Tasmota, so I could easily integrate into Home Assistant Zigbee (ZHA). The best guide is one availiable on the [blackadder device repo here](https://zigbee.blakadder.com/Sonoff_ZBBridge.html)  
+
+!!! tip
+    This process looks comlpex but it really isn't, just be sure to follow the instructions fully and make sure you have adequate time. Rushing = Frustration!
+
+Kit required:
+
+- USB TTL Converter - I Bought [this one](https://www.amazon.co.uk/WINGONEER-CP2104-Serial-Converter-compatible/dp/B01CYBHM26/ref=sr_1_3?crid=L5XNE56PK4JO&dchild=1&keywords=usb+ttl+converter&qid=1615212171&sprefix=usb+ttl+con%2Caps%2C151&sr=8-3) but you basically just need to ensure there's a 3.3v output option
+- Some Wire! - Jumper cables work really well from the USB TTL but you will need some (preferably single core) wire to fit into the tiny holes on the PCB.  
+
+Then just follow the tutorial and you'll have it connected to ZHA in no time
