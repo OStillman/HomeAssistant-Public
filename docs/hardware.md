@@ -32,7 +32,7 @@ Alongside the Main Server, I have a couple of other Controlling components.
 This is being used in a REALLY simple manner. Simply stuck to the wall and used as a Teams Status Indicator (i.e. Red = In Meeting, Green = Free)
 
 ### Sonoff Zigbee Hub
-This is brand new and, as I write this, is on it's way to me today. I'll publish more details once it's here but the idea for this is to flash with Tasmota and use it as my main Zigbee Controller. 
+Brand new and still in the "Testing" phase of use. Seems completely stable and reliable so far. Flashed with Tasmota and benefits from being fully wireless so I can place it in a good location, rather than hidden away like the Pi is. Controls all non-Hue devices (and, currently also the Hue Dimmer Switch)
 
 ### Phillips Hue Hub
 As it says on the tin. Possibly being replaced by Sonoff, but I need to be able to trust the Sonoff first!
