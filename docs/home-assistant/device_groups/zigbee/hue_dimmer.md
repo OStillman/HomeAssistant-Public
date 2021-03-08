@@ -14,7 +14,7 @@ The Hue Dimmer Switch is a 4 buttoned device aimed at controlling a singular Hue
 - Darker
 
 ## Suggested General Configuration
-I was unhappy with how Hue tied down the dimmer switch. Control only a specific set of lights, no other controls. It worked, but not the best. So, the best way is to add it to your custom Zigbee Controller to open up (From ZHA):
+I was unhappy with how Hue tied down the dimmer switch. Only able to control only a specific set of lights, no ability to turn on *one* light, and turn *off all* lights. It worked, but not the best. So, the best way is to add it to your custom Zigbee Controller to open up (From ZHA):
 
 - Single, Double, Triple, Quadruple & Continous presses of each button
 - Flexibilty to control any device you wish
@@ -47,17 +47,41 @@ If the controller struggles to find the device:
 !!! tip
     Keep it easily searchable by appending all Automations with the same name i.e. I've used "Hue Dimmer". I can then search and alter these as required
 
-### Hue Dimmer Off Button
-**Trigger:** Turn Off Button Pressed
-**Conditions:** None
-**Actions:** Acviate Scene: Bedroom Lights Off
+### Hue Dimmer On Button
+**Trigger:** Turn on Button Pressed  
+**Conditions:** None  
+**Actions:** Chose Condition:  
+IF
 
-**Role** Simple Automation to Turn off all Bedroom Lights when the "Off" button is pressed on the Hue Dimmer Controller
+- Top Light is currently off
+
+THEN
+
+- Turn on the Top Light
+- Turn off the Bedside lamps (regardless if they are on or not)
+
+ELSE IF
+
+- Top Light is on
+
+THEN
+
+- Turn off Top Light
+- Turn on Bedside Lamps  
+
+**Role:** Generally if we want to turn on the lights, it's the toplight only. This then provides the option to Toggle to the Bedside lamps and back again if required  
+
+### Hue Dimmer Off Button
+**Trigger:** Turn Off Button Pressed  
+**Conditions:** None  
+**Actions:** Acviate Scene: Bedroom Lights Off  
+
+**Role:** Simple Automation to Turn off all Bedroom Lights when the "Off" button is pressed on the Hue Dimmer Controller
 
 ### Hue Dimmer Double off Button
-**Trigger:** Turn Off Button Double Pressed
-**Conditions:** None
-**Actions:** Activate Scene: Bedroom Lights Off
+**Trigger:** Turn Off Button Double Pressed  
+**Conditions:** None  
+**Actions:** Activate Scene: Bedroom Lights Off  
 Choose Condition:
 
 - If the time is after 6:45am and before 11:30am
@@ -69,4 +93,8 @@ THEN:
 - Play Radio 1 In the Kitchen
 - Stop the media playing in the bedroom
 
-**Role** Automation to allow the usual lights to be turned off, but also transfer the music (Assumed Radio 1) from the Bedroom to the likely next room of the Kitchen 
+**Role:** Automation to allow the usual lights to be turned off, but also transfer the music (Assumed Radio 1) from the Bedroom to the likely next room of the Kitchen 
+
+### Further Development Ideas
+
+- Use the Brighter/Darker Buttons with Scenes to activate 3/4 stages of light intensity that the user can toggle through
