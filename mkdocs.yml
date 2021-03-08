@@ -23,7 +23,9 @@ nav:
   - Home Assistant:
     - Introduction: home-assistant/intro.md
     - Device Groups: 
-      - Zigbee: home-assistant/device_groups/zigbee.md
+      - Zigbee: 
+        - Intro: home-assistant/device_groups/zigbee/zigbee.md
+        - Hue Dimmer Switch: home-assistant/device_groups/zigbee/hue_dimmer.md
     - Configuration:
       - The Config File: home-assistant/configuration/configuration_yaml.md
     - Automations:
