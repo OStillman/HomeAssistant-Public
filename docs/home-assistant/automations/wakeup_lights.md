@@ -15,7 +15,7 @@ Prior to the automation, this used to run from the Hue app. Although this worked
 
 ### Package
 
-This automation is stored in the *packages/wakeup_lights.md* directory
+This automation is stored in *packages/wakeup_lights.yaml*
 
 ### UI / Toggles & Time Inputs
 The UI consits of Toggles & Time fields as explained below:
