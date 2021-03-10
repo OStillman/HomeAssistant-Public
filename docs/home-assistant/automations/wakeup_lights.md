@@ -16,9 +16,10 @@ Prior to the automation, this used to run from the Hue app. Although this worked
 ### UI / Toggles & Time Inputs
 The UI consits of Toggles & Time fields as explained below:
 
-- Each Alarm
-  - (E.g.) input_boolean.weekday_wakeup_lights - Input Boolean to toggle the Weekday Lights Turning on
-  - (E.g.) input_datetime.weekday_light_time - Input Datetime (Time Only) to set the time the lights should start turning on
+Each Alarm
+
+- (E.g.) input_boolean.weekday_wakeup_lights - Input Boolean to toggle the Weekday Lights Turning on
+- (E.g.) input_datetime.weekday_light_time - Input Datetime (Time Only) to set the time the lights should start turning on
 
 !!! note
     This Automation assumes the time set is *half hour before* the user wishes to wake up. I.e. Main Alarm at 6:45am, Lights Turn on Time set to 6:15am
