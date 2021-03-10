@@ -30,6 +30,7 @@ nav:
       - The Config File: home-assistant/configuration/configuration_yaml.md
     - Automations:
       - Automation Intro: home-assistant/automations/automations.md
+      - Automation Intro: home-assistant/automations/wakeup_lights.md
   - Self-Development: 
     - Introduction: development/development.md
     - Development Methodology: development/development_method.md
