@@ -3,7 +3,7 @@
 !!! question "Status: Newly Implemented"
     This Automation is newly configured. It's likely going to go through changes before it's committed and marked fully working
 
-![Wakeup Light Card in Home Assistant](/assets/images/wakeup_lights.png)
+![Wakeup Light Card in Home Assistant](/assets/images/alarms.png)
 
 ## Automation Purpose
 This automation takes over the Hue Integration for controlling slow-and-steady wakeup lights in the morning. 
