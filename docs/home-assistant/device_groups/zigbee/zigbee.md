@@ -17,7 +17,7 @@ It's just one of the many communication methods used within IoT:
 I keep my Zigbee network simple! Sonoff + Zigbee Home Assistant Add-on!
 
 <figure>
-  <img src="./assets/images/sonoff_zigbee.jpg" width="400" />
+  <img src="/assets/images/sonoff_zigbee.jpg" width="400" />
 </figure>
 
 ### The Sonoff Zigbee Controller
