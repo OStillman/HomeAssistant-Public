@@ -2,7 +2,11 @@
 
 **Note: This is currently under construction**
 
-![Me!](./assets/images/me.png){: align=middle}
+<!-- ![Me!](./assets/images/me.png){: align=middle} -->
+<figure>
+  <img src="./assets/images/me.png" width="300" />
+  <figcaption>Image caption</figcaption>
+</figure>
 
 
 Hello! My Personal Site is now dedicated to my Smart Home Development, but you can still find out a bit about me here

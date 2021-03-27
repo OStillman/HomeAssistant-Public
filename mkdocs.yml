@@ -2,9 +2,6 @@ site_name: Owen Stillman's Smart Home
 site_author: Owen Stillman
 site_description: My Smart Home Setup
 
-repo_url: https://github.com/OStillman/HomeAssistant-Public
-repo_name: OStillman/HomeAssistant-Public
-
 theme:
   name: material
   custom_dir: docs/overrides
