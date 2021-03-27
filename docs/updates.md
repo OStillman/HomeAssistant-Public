@@ -16,3 +16,6 @@ I've FINALLY got a big enough extension lead to let me smart-plug-up my TV Speak
 - Turn off when the TV is turned off
 
 This now enters testing phase to see if it's useful!
+
+**Site Updates**  
+Still a WIP but it's getting there now. My recent Node-Red Migration means I need to re-write but that's not a bad thing. There's a lot of work to go
