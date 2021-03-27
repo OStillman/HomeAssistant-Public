@@ -1,24 +1,11 @@
 # Configuration.yaml
-The Configuration.yaml is a really important part of Home Assistant. You'll find yourself avoiding it initially, then using it loads once you get going
+The Config File is something I edit a lot, and generally leave. But it depends on your use!
 
-!!! info "Split it out!"
-    I've fallen into this trap but please, split out your configuration.yaml file. It really will save so much pain!
+## My Use of Config.yaml
 
-## How to use the configuration.yaml file
-Home Assitant takes you through some really useful tutorials, but it does really depend on your use case. Lots of documentation will jump straight into some .yaml when there is actually a UI configuration availiable. And generally, use the UI Configuration if you can, it avoids so much annoyances!
+I use it for 2 main uses:
 
-Generally there are a few small rules:
+- Add-on Setup. Only if there is no UI option!
+- Template Sensors
 
-- Make small Changes
-- Check Configuration (Configuration > Server Controls > Check Configuration)
-- Restart after most, if not all, changes to see them take effect
-- Make use of the [secrets.yaml file](https://www.home-assistant.io/docs/configuration/secrets/)
-- Make use of [splitting out the config file](https://www.home-assistant.io/docs/configuration/splitting_configuration/)
-
-!!! tip "My Configuration"
-    In the Nav structure you'll see how I've configured my yaml files. My main file is described below, and I've mirrored the directory structure in here to make it easy for me to revert to if I need to check anything. You can however sort yours in anyway you deem best!
-
-
-## My Current Configuration.yaml file
-
-TBC - This is currently under construction, details will be added here once availiable
+Take a look around this section to understand how I've used each part...
