@@ -13,7 +13,7 @@ Hello! Welcome to my Personal Site - Now dedicated to my Smart Home Attempts & T
 
 <!--![My Main Dash](./assets/images/main-dash.png)-->
 <figure>
-  <img src="./assets/images/main-dash.png" width="300" />
+  <img src="./assets/images/main-dash.png" width="800" />
   <figcaption>My Main Dashboard</figcaption>
 </figure>
 
