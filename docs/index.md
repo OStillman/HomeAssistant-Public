@@ -25,7 +25,7 @@ Home Assistant is where all this started, and if you've never heard of it before
 
 To bring this out further:
 
-- Accessible: A.k.a it passes the Girlfriend test. Can she use it, does she frustrated by it?
+- Accessible: A.k.a it passes the Girlfriend test. Can she use it, does she get frustrated by it?
 - User Centric - Users need to be able to use, override and understand throughout the entire journey.
 - Automation Lead - Using any form of Dashboard/App/Command should be reserved for tasks I can't predict. Otherwise, automate it
 - Experience that benefits all - No matter who you are, you need to be able to walk into this house and go about normal tasks without fear and feel the benefit.
