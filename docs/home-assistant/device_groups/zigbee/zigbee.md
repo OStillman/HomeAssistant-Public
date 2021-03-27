@@ -2,33 +2,23 @@
 
 ![Zigbee Logo](/assets/images/zigbee.jpg)
 
-!!! info "A Note"
-    A note about Zigbee: I am using the direct ZHA (Zigbee Home Automation) integration alongside a Sonoff Zigbee Hub flashed with Tasmota. It looked like the best way of getting myself setup at the time (and the cheapest!) but there are many other options out there. Including using Zigbee2MQTT or even going for a Z-Wave integration. Take a look and find which you prefer!
-
 ## What is Zigbee?
-Zigbee is a communication protocal. Think of it like Wifi but less power hungry, and more direct in it's use. Whereas Wifi is used by most devices we own today, Zigbee is saved for IoT devices which may be running via battery power and simply need to report on an event happening, such as a door opening or closing. Directly Powered Zigbee devices also exist (think lightbulbs) which are still low powered but need to be always on and "listening" for commands to turn on
 
-## Why Zigbee? Why not use Wifi?
-There's no direct reason, and it's a topic that's hotly debated on many forums around the internet. I'm turning to Zigbee to try and keep devices away from my Wifi network. As more devices get added to it, there can be congestion caused, so it's largely better to keep these small devices away from Wifi. The benefits are namely:
+Zigbee is a Wireless Communication Protocal that's used in low-power IoT devices to send messages and report states. 
 
-- Less Congestion on Wifi
-- Lower Power usage (espcially important for battery powered devices)
-- *Generally* standard protocal
+It's just one of the many communication methods used within IoT:
 
-But Wifi has it's own benefits:
-
-- Much cheaper devices (Google ESPHome and you'll see what I mean)
-- No Hub Required
-
-You just need to work out what's best for you!
-
-!!! tip
-    You can of course have a mixture of devices. At the moment I have Wifi devices for those that are useful to be controlled by Google Home, and Zigbee/Other devices that are not needed to be controlled by Google Home. Of course, in the future I aim to control this further, but it's a good way of looking at it initially
+- Zigbee - The one I use, mostly because of great implementations, plethora of devices out there, fairly cheap to implement
+- Z-Wave - Alike to Zigbee, but I beleive better distance
+- Wi-Fi - I'm always unsure about this. If you HAVE to use Wi-Fi just watch for "phoning home" devices. Plus, not the lowest of power use! Google "Esp Home"!
+- 400(ish)mhz - It's likely how your doorbells work. There's a lot of cheap implementations of this that work by maxing out your Pi, so I'd investigate a more efficient method before taking this route
 
 ## My Setup
-Enough about what Zigbee is, how it works, why it's benefical etc. let's talk about my setup
+I keep my Zigbee network simple! Sonoff + Zigbee Home Assistant Add-on!
 
-![Sonoff Zigbee Controller](/assets/images/sonoff_zigbee.jpg)
+<figure>
+  <img src="./assets/images/sonoff_zigbee.jpg" width="400" />
+</figure>
 
 ### The Sonoff Zigbee Controller
 Small but mighty! I chose this controller as:
@@ -49,3 +39,26 @@ Kit required:
 - Some Wire! - Jumper cables work really well from the USB TTL but you will need some (preferably single core) wire to fit into the tiny holes on the PCB.  
 
 Then just follow the tutorial and you'll have it connected to ZHA in no time
+
+#### Why not Zigbee2MQTT?
+
+This decision was mostly made due to device availiability. I.e. wait 3 months for a Zigbee Stick made by some random dude, or Amazon a cheaper Zigbee Hub and get it the next day (I thnk we all know what I chose - Both!)
+
+ZHA Has it's own Benefits:
+
+- Built right into ZHA
+- UI Based
+- Used with Sonoff Zigbee Hub means the Pi and Zigbee hub can be in two different locations!
+
+But ZHA also has drawbacks:
+
+- Less Device Support!
+- Reliance on Home Assistant
+
+Zigbee2MQTT Generally:
+
+- Has more devices
+- Uses MQTT instead
+- But is CMD based
+
+I've got a Zigbee2MQTT Stick as well which I'm reserving incase I get fed up with ZHA. Currently, that's not looking likely!
