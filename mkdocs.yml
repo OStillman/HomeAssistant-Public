@@ -17,6 +17,7 @@ theme:
 nav:
   - Home: index.md
   - Hardware: hardware.md
+  - Updates: updates.md
   - Home Assistant:
     - Introduction: home-assistant/intro.md
     - Device Groups: 
