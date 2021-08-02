@@ -4,7 +4,6 @@ site_description: My Smart Home Setup
 
 theme:
   name: material
-  custom_dir: docs/overrides
   palette:
     scheme: preference
     primary: amber
