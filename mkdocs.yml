@@ -5,7 +5,7 @@ site_description: My Smart Home Setup
 theme:
   name: material
   palette:
-    scheme: preference
+    scheme: slate
     primary: amber
     accent: orange
   features:
