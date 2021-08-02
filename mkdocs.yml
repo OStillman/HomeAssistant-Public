@@ -16,23 +16,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Hardware: hardware.md
-  - Updates: updates.md
-  - Home Assistant:
-    - Introduction: home-assistant/intro.md
-    - Device Groups: 
-      - Zigbee: 
-        - Intro: home-assistant/device_groups/zigbee/zigbee.md
-        - Hue Dimmer Switch: home-assistant/device_groups/zigbee/hue_dimmer.md
-    - Configuration:
-      - The Config File: home-assistant/configuration/configuration_yaml.md
-    - Automations:
-      - Automation Intro: home-assistant/automations/automations.md
-      - Wakeup Lights: home-assistant/automations/wakeup_lights.md
-  - Self-Development: 
-    - Introduction: development/development.md
-    - Development Methodology: development/development_method.md
-    - ODACShows: development/odacshows.md
 
 
 markdown_extensions:
