@@ -14,7 +14,7 @@ theme:
 
 
 nav:
-  - Home: index.md
+  - 'Home': index.md
   - 'Architecture':
     - 'Zero Trust' : 'architecture/zero-trust.md'
 
