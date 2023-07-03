@@ -1,6 +1,6 @@
-site_name: Owen Stillman's Smart Home
+site_name: Owen Stillman's Home Server
 site_author: Owen Stillman
-site_description: My Smart Home Setup
+site_description: My Home Server Usuage, Setup and General Config
 
 theme:
   name: material
@@ -15,6 +15,8 @@ theme:
 
 nav:
   - Home: index.md
+  - 'Architecture':
+    - 'Zero Trust' : 'architecture/zero-trust.md'
 
 
 markdown_extensions:

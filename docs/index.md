@@ -1,11 +1,24 @@
-# Smart Home
+# Home Server
 
-## Quick Config View
+## Local Processes and Services
 
-  * Home Assistant Version: Home Assistant 2021.7.1
-  * Node-red: 1.3.5 
+  * Proxmox Base OS
+  * Harry the Home Assistant Server
+    * Home Assistant
+    * Node-Red
+    * Adguard Home
+    * Zigbee2MQTT
+    * Homebridge
+    * Mealie
+  * Peter the Plex Server
+    * Plex
 
-## Ongoing Projects
+## Recent Changes and Additions
 
-  * Smart Energy Monitoring - Dishwasher & Washing Machine
-  * Smarter 
+  * Zero Trust Policy
+  * Mealie
+
+## Known Issues to Resolve
+
+  * 3-2-1 Backup Strategy
+    * Stronger Off-site Backup required
