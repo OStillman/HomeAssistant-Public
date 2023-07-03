@@ -17,6 +17,10 @@ nav:
   - 'Home': index.md
   - 'Architecture':
     - 'Zero Trust' : 'architecture/zero-trust.md'
+  - 'Applications':
+    - 'Home Assistant': 'applications/home-assistant.md'
+    - 'Zigbee2MQTT': 'applications/zigbee2mqtt.md'
+    - 'Mealie': 'applications/mealie.md'
 
 
 markdown_extensions:
